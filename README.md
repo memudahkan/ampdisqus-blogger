@@ -1,2 +1,5 @@
-# ampdisqus-blogger
-HTML Disqus untuk Blogger AMP
+Arsip kode untuk blog Memudahkan
+<ol>
+ <li>HTML Disqus untuk Blogger AMP</li>
+ <li>Daftar Isi Klasik</li>
+<ol>
