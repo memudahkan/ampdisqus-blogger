@@ -1,4 +1,4 @@
-Arsip kode untuk blog Memudahkan
+Arsip kode untuk M2D Network
 <ol>
  <li>HTML Disqus untuk Blogger AMP - dari Kompiajaib</li>
  <li>Daftar Isi Klasik - dari Abu Farhan</li>
