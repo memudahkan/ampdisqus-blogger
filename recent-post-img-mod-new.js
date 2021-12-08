@@ -32,6 +32,7 @@ var s;
         try {
             thumbUrl = entry.media$thumbnail.url;
             thumbUrl = thumbUrl.replace(/.*?:\/\//g , "//").replace("/s72-c/","/s"+imgDim+"-c-rw/");
+            thumbUrl = thumbUrl.replace(/.*?:\/\//g , "//").replace("=s72-c","=s"+imgDim+"-c-rw");
         } catch (error) {
             if ("content" in entry) s = entry.content.$t; else s="";
             if (thumbUrl == "" && mediaThumbsOnly == false) {
