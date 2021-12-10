@@ -4,4 +4,5 @@ Arsip kode untuk M2D Network
  <li>Daftar Isi Klasik - dari Abu Farhan</li>
  <li>Multi Feed - dari DTE</li>
  <li>Recent Post Image - dari Bloggerplugins</li>
+ <li>Related Post Sidebar - dari DTE</li>
 <ol>
