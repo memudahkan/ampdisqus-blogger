@@ -5,4 +5,5 @@ Arsip kode untuk M2D Network
  <li>Multi Feed - dari DTE</li>
  <li>Recent Post Image - dari Bloggerplugins</li>
  <li>Related Post Sidebar - dari DTE</li>
+ <li>Arsip Blogger - dari Abu Farhan</li>
 <ol>
