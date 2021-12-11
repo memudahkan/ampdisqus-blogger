@@ -1,0 +1,238 @@
+/*! Skin for Galleria V2 */
+#dte-masonry-container {
+    font: normal normal 11px/normal Arial, Sans-Serif;
+    color: #666;
+    margin: 0 auto
+}
+.json_post {
+    background-color: white;
+    padding: 20px;
+    margin: 2px;
+    float: left;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    position: relative
+}
+.json_post h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    font: inherit;
+    color: #3868b5
+}
+.json_post h3 a {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal
+}
+.json_post .json_sub-header {
+    display: block;
+    margin: 0 0 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #627e83
+}
+.json_post a.json_img-container {
+    display: block;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    padding: 1%;
+    font-size: 0;
+    line-height: 0
+}
+#dte-masonry-container .json_post img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    opacity: 0;
+    max-width: none;
+    max-height: none
+}
+.json_post p {
+    margin: 10px 0 0;
+    padding: 0;
+    word-wrap: break-word;
+    overflow: hidden
+}
+.json_post .json_post-footer {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    overflow: hidden;
+    font-weight: bold
+}
+.json_post a.json_more {
+    display: block;
+    background-color: #3868b5;
+    color: white;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: bold
+}
+.json_post a.json_more:hover {
+    background-color: #214889;
+    color: white
+}
+.json_post h3 a:hover {
+    color: #214889
+}
+.clear {
+    clear: both
+}
+#json_loading {
+    display: block;
+    width: 120px;
+    position: fixed !important;
+    position: absolute;
+    text-align: center;
+    font: normal bold 11px/24px Arial, Sans-Serif;
+    color: white;
+    background-color: #36aa4a;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 999;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .4), 0 1px 2px rgba(0, 0, 0, .4);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .4), 0 1px 2px rgba(0, 0, 0, .4);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .4), 0 1px 2px rgba(0, 0, 0, .4);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px
+}
+#json_loading.loaded {
+    background-color: #900
+}
+.json_post.json_thumbnail-mode.loading, .json_post.json_summary-mode a.loading {
+    background: white url('data:image/gif;base64,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') no-repeat 50% 50%;
+    padding: 0
+}
+.json-post.json_summary-mode a.loading img {
+    background: 0
+}
+.json_post.json_thumbnail-mode {
+    padding: 0;
+    line-height: 0;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    overflow: hidden
+}
+.json_post.json_thumbnail-mode img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto !important
+}
+.json_post.json_thumbnail-mode figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, .9);
+    line-height: 100%;
+    padding: 5px 7px;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: none
+}
+.json_post.json_thumbnail-mode figcaption span {
+    font-size: 10px
+}
+.json_post.json_thumbnail-mode strong.json_caption {
+    display: block;
+    padding: 5px 5px 7px;
+    border-bottom: 1px solid #222;
+    margin: 0 0 4px;
+    font-weight: bold
+}
+.json_post.json_thumbnail-mode strong.json_caption a {
+    color: #cfdbec;
+    text-decoration: none
+}
+.json_post.json_thumbnail-mode strong.json_caption a:hover {
+    color: white
+}
+.json_post.json_thumbnail-mode .json_post-date {
+    float: left
+}
+.json_post.json_thumbnail-mode .json_comment {
+    float: right
+}
+#dte-masonry-nav {
+    text-align: center;
+    font: inherit;
+    margin: 15px 0 30px
+}
+#dte-masonry-nav a, #json_total-posts {
+    background-color: #012;
+    padding: 4px 7px;
+    color: #dbe1f2;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .7)
+}
+#dte-masonry-nav a:link {
+    background-image: -webkit-linear-gradient(top, #234, #012);
+    background-image: -moz-linear-gradient(top, #234, #012);
+    background-image: -ms-linear-gradient(top, #234, #012);
+    background-image: -o-linear-gradient(top, #234, #012);
+    background-image: linear-gradient(top, #234, #012)
+}
+#dte-masonry-nav a:hover {
+    color: white
+}
+#dte-masonry-nav a:active {
+    background-image: none;
+    background-color: black
+}
+#json_total-posts {
+    background-image: -webkit-linear-gradient(top, #012, #234);
+    background-image: -moz-linear-gradient(top, #012, #234);
+    background-image: -ms-linear-gradient(top, #012, #234);
+    background-image: -o-linear-gradient(top, #012, #234);
+    background-image: linear-gradient(top, #012, #234);
+    -webkit-box-shadow: inset 4px 0 2px -2px #012, inset -4px 0 2px -2px #012;
+    -moz-box-shadow: inset 4px 0 2px -2px #012, inset -4px 0 2px -2px #012;
+    box-shadow: inset 4px 0 2px -2px #012, inset -4px 0 2px -2px #012
+}
+.masonry.css-transition, .masonry.css-transition .masonry-brick {
+    -webkit-transition-duration: .7s;
+    -moz-transition-duration: .7s;
+    -o-transition-duration: .7s;
+    transition-duration: .7s
+}
+.masonry.css-transition {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width
+}
+.masonry.css-transition .masonry-brick {
+    -webkit-transition-property: left, right, top;
+    -moz-transition-property: left, right, top;
+    -o-transition-property: left, right, top;
+    transition-property: left, right, top
+}
