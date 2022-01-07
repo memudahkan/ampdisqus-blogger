@@ -26,3 +26,6 @@ body {
 a:visited {
     color: #0072d0;
 }
+a:hover {
+    color: #4eadf8;
+}
