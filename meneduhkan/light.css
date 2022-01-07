@@ -1,0 +1,25 @@
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body, .post-body {
+    color: #2c2c2c;
+}
+a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .comment .comment-footer .comment-timestamp a, #comments .comment .comment-header .datetime a {
+    color: rgba(44,44,44,.54);
+}
+#comments .comment .comment-header .user, #comments .comment .comment-header .user a, a {
+    color: #2196f3;
+}
+
+body {
+    background: #eee;
+}
+
+#page_body .FeaturedPost, .Blog .blog-posts .post-outer-container, .comments .comment-thread.inline-thread {
+    background: #fff;
+}
+
+#comments {
+    border-color: rgba(0,0,0,.54);
+}
+
+a:visited {
+    color: #0072d0;
+}
