@@ -1,0 +1,28 @@
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body.darkmode-active, .post-body {
+    color: #e8eaed;
+}
+a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .comment .comment-footer .comment-timestamp a, #comments .comment .comment-header .datetime a {
+    color: #a5a6a8;
+}
+#comments .comment .comment-header .user, #comments .comment .comment-header .user a, a {
+    color: #8ab4f8;
+}
+
+body {
+    background: #000;
+}
+
+#page_body .FeaturedPost, .Blog .blog-posts .post-outer-container, .comments .comment-thread.inline-thread, html {
+    background: #202124;
+}
+
+#comments {
+    border-color: #a5a6a8;
+}
+
+#commentBodyField {
+    color: $(body.text.color.dark);
+}
+a:visited {
+    color: #b39ddb;
+}
