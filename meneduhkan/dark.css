@@ -23,3 +23,6 @@ body {
 a:visited {
     color: #b39ddb;
 }
+a:hover {
+    color: #4eadf8;
+}
