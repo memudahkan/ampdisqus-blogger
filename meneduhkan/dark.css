@@ -1,4 +1,4 @@
-.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body.darkmode-active, .post-body {
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body, .post-body {
     color: #e8eaed;
 }
 a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .comment .comment-footer .comment-timestamp a, #comments .comment .comment-header .datetime a {
@@ -20,9 +20,6 @@ body {
     border-color: #a5a6a8;
 }
 
-#commentBodyField {
-    color: $(body.text.color.dark);
-}
 a:visited {
     color: #b39ddb;
 }
