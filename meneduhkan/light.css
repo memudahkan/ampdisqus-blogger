@@ -1,5 +1,8 @@
-.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body, .post-body {
+.post-title, .post-title a, .post-title a:hover, .post-title a:visited, body {
     color: #2c2c2c;
+}
+.post-body {
+    color: #333;
 }
 a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .comment .comment-footer .comment-timestamp a, #comments .comment .comment-header .datetime a {
     color: rgba(44,44,44,.54);
