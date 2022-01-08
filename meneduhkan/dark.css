@@ -8,10 +8,10 @@ a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .
     color: #8ab4f8;
 }
 
-body {
+/* body {
     background: #000;
 }
-
+*/
 #page_body .FeaturedPost, .Blog .blog-posts .post-outer-container, .comments .comment-thread.inline-thread, html {
     background: #202124;
 }
