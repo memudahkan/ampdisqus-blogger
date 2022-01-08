@@ -1,3 +1,7 @@
+body {
+    background: #eee;
+}
+
 .post-title, .post-title a, .post-title a:hover, .post-title a:visited, body {
     color: #2c2c2c;
 }
@@ -11,10 +15,6 @@ a.timestamp-link, a:active.timestamp-link, a:visited.timestamp-link, #comments .
     color: #2196f3;
 }
 
-/* body {
-    background: #eee;
-}
-*/
 #page_body .FeaturedPost, .Blog .blog-posts .post-outer-container, .comments .comment-thread.inline-thread {
     background: #fff;
 }
